@@ -9,12 +9,11 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? `😆 对话遇到了一些问题，不用慌:
-       \\ 1️⃣ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
-       \\ 2️⃣ 如果你想消耗自己的 OpenAI 资源，点击[这里](/#/settings)修改设置 ⚙️`
+       \\ 1️⃣ 请在[设置](/#/settings)页填入两项信息：1、接口信息：https://api.juheai.top;2、API-Key，购买链接(${SAAS_CHAT_UTM_URL})
+       \\ 2️⃣ 点击[这里](/#/settings)修改设置 ⚙️`
       : `😆 对话遇到了一些问题，不用慌:
-       \ 1️⃣ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
-       \ 2️⃣ 如果你正在使用私有部署版本，点击[这里](/#/auth)输入访问秘钥 🔑
-       \ 3️⃣ 如果你想消耗自己的 OpenAI 资源，点击[这里](/#/settings)修改设置 ⚙️
+       \ 1️⃣ 请在[设置](/#/settings)页填入两项信息：1、接口信息：https://api.juheai.top;2、API-Key，购买链接(${SAAS_CHAT_UTM_URL})
+       \ 2️⃣ 点击[这里](/#/settings)修改设置 ⚙️
        `,
   },
   Auth: {
@@ -27,7 +26,7 @@ const cn = {
     Later: "稍后再说",
     SaasTips: "配置太麻烦，想要立即使用",
     TopTips:
-      "🥳 NextChat AI 首发优惠，立刻解锁 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+      "🥳 聚合AI 首发优惠，立刻解锁 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -598,7 +597,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "欢迎使用NextChat！[[余额查询]](https://www.aijuhe.top/query/)|[[API购买]](https://one.mmwcy.cn/)|[[聚合AI官网]](https://www.aijuhe.top/)|[[插件配置]](https://www.aijuhe.top/nextchat-plugin-configuration-instructions/",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
