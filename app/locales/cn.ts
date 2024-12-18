@@ -9,10 +9,10 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? `😆 对话遇到了一些问题，不用慌:
-       \\ 1️⃣ 请在[设置](/#/settings)页填入两项信息：1、接口信息：https://api.juheai.top;2、API-Key，购买链接(${SAAS_CHAT_UTM_URL})
+       \\ 1️⃣ 请在[设置](/#/settings)页填入两项信息：1、接口信息：https://api.juheai.top ;2、API-Key，购买链接(${SAAS_CHAT_UTM_URL})
        \\ 2️⃣ 点击[这里](/#/settings)修改设置 ⚙️`
       : `😆 对话遇到了一些问题，不用慌:
-       \ 1️⃣ 请在[设置](/#/settings)页填入两项信息：1、接口信息：https://api.juheai.top;2、API-Key，购买链接(${SAAS_CHAT_UTM_URL})
+       \ 1️⃣ 请在[设置](/#/settings)页填入两项信息：1、接口信息：https://api.juheai.top ;2、API-Key，购买链接(${SAAS_CHAT_UTM_URL})
        \ 2️⃣ 点击[这里](/#/settings)修改设置 ⚙️
        `,
   },
