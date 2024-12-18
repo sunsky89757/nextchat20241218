@@ -597,7 +597,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "欢迎使用NextChat！[[余额查询]](https://www.aijuhe.top/query/)|[[API购买]](https://one.mmwcy.cn/)|[[聚合AI官网]](https://www.aijuhe.top/)|[[插件配置]](https://www.aijuhe.top/nextchat-plugin-configuration-instructions/)",
+    BotHello: "欢迎使用NextChat！[[余额查询]](https://www.aijuhe.top/juhebill/)|[[API购买]](https://one.mmwcy.cn/)|[[聚合AI官网]](https://www.aijuhe.top/)|[[插件配置]](https://www.aijuhe.top/nextchat-plugin-configuration-instructions/)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
