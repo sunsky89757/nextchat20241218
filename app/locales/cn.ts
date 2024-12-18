@@ -314,7 +314,7 @@ const cn = {
         Label: "（性价比最高的方案）",
         SubTitle:
           "欢迎使用聚合AI部署的NextChat，如需购买API请点击右侧按钮",
-        ChatNow: "立刻对话",
+        ChatNow: "XDStore商店",
       },
       AccessCode: {
         Title: "访问密码",
